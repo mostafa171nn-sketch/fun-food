@@ -55,15 +55,14 @@ export default function Home() {
           </div>
 
           {/* Floating Food Images */}
-          <div className="absolute top-1/4 left-10 md:left-20 w-24 h-24 md:w-32 md:h-32 animate-float hidden md:block">
-            <Image
-              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200&h=200&fit=crop"
+          <div className="absolute bottom-1 left-60 md:left-90 w-24 h-24 md:w-32 md:h-32 animate-float hidden md:block">
+            <Image              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200&h=200&fit=crop"
               alt="Burger"
               fill
               className="rounded-full object-cover border-4 border-white shadow-xl"
             />
           </div>
-          <div className="absolute top-1/3 right-10 md:right-20 w-20 h-20 md:w-28 md:h-28 animate-float hidden md:block" style={{ animationDelay: '0.5s' }}>
+          <div className="absolute top-10 right-10 md:left-1 w-20 h-20 md:w-28 md:h-28 animate-float hidden md:block" style={{ animationDelay: '0.5s' }}>
             <Image
               src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&h=200&fit=crop"
               alt="Pizza"
@@ -71,14 +70,7 @@ export default function Home() {
               className="rounded-full object-cover border-4 border-white shadow-xl"
             />
           </div>
-          <div className="absolute bottom-1/4 left-1/4 w-20 h-20 md:w-28 md:h-28 animate-float hidden md:block" style={{ animationDelay: '1s' }}>
-            <Image
-              src="https://images.unsplash.com/photo-1585032226651-759b368d7246?w=200&h=200&fit=crop"
-              alt="Maggi"
-              fill
-              className="rounded-full object-cover border-4 border-white shadow-xl"
-            />
-          </div>
+        
         </div>
       </section>
 
