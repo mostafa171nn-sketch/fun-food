@@ -124,7 +124,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-secondary">Address</h3>
-                    <p className="text-gray-500">123 Food Street, Culinary City, India</p>
+                    <p className="text-gray-500">123 Food Street,nasr city, egypt</p>
                   </div>
                 </div>
                 
@@ -134,7 +134,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-secondary">Phone</h3>
-                    <p className="text-gray-500">+91 1234567890</p>
+                    <p className="text-gray-500">01111695090</p>
                   </div>
                 </div>
                 
@@ -144,7 +144,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-secondary">Email</h3>
-                    <p className="text-gray-500">hello@thefunfood.com</p>
+                    <p className="text-gray-500">mostafa171nn@gmail.com</p>
                   </div>
                 </div>
               </div>
