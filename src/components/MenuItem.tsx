@@ -47,7 +47,7 @@ export default function MenuItem({ item }: MenuItemProps) {
         <p className="text-gray-500 text-sm mb-3 line-clamp-2">{item.description}</p>
         
         <div className="flex items-center justify-between">
-          <span className="text-2xl font-bold text-primary">eg{item.price}</span>
+          <span className="text-2xl font-bold text-primary">{item.price}Eg</span>
           <button
             onClick={handleAddToCart}
             disabled={!item.isAvailable}
